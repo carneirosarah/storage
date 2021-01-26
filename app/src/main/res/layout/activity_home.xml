@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp">
+
+    <EditText
+        android:id="@+id/edNomeProd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Informe o nome do produto:"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/edQtdProd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Informe a quantidade do produto:"
+        android:layout_margin="5dp"/>
+
+    <EditText
+        android:id="@+id/edPrecoProd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Informe o preço do produto:"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
